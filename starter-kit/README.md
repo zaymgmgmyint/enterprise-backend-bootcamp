@@ -1,6 +1,6 @@
-# week-00-starter-kit
+# starter-kit
 
-Your first Java program. In the Week 0 session you run it in IntelliJ IDEA (as `Main.java`). This copy lets you also try it from the terminal, to see that JDK 21 works on its own.
+Your first Java program. In the Starter kit session you run it in IntelliJ IDEA (as `Main.java`). This copy lets you also try it from the terminal, to see that JDK 21 works on its own.
 
 ## Run it from the terminal
 
