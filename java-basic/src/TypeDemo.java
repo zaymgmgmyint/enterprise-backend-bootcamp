@@ -24,5 +24,8 @@ public class TypeDemo {
         System.out.println("isUrgent = " + isUrgent);
         System.out.println("big = " + big);
         System.out.println("(byte) 257 = " + (byte) 257);
+
+        double num1 = 5.6;
+        float num2 = 5.6F;
     }
 }
