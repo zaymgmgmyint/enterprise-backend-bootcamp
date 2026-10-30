@@ -1,4 +1,4 @@
-public class LoopDemo {
+public class LoopExample {
     static void main(String[] args) {
 
         String[] tasks = {"Write README", "Fix login bug", "Deploy"};

@@ -1,4 +1,4 @@
-public class OperatorsDemo {
+public class OperatorsExample {
 
     public static void main(String[] args) {
 

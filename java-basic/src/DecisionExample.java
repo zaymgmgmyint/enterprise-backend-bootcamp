@@ -1,4 +1,4 @@
-public class DecisionDemo {
+public class DecisionExample {
 
     static void main(String[] args) {
         int priority = 1;
