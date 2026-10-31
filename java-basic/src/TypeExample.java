@@ -1,26 +1,36 @@
+import com.sun.tools.jconsole.JConsoleContext;
+
+import java.util.Locale;
+
 public class TypeExample {
 
     public static void main(String[] args) {
 
-        // Primitive Data Types
-        int number = 1;
-        double price = 10.9;
-        char grade = 'A';
-        boolean isJavaFun = true;
+        // whole number -> byte, short, int, long
+        // decimal -> float, double
+        // one char -> char
+        // true / false -> boolean
 
-        System.out.println("number = " + number);
+        // Primitive Data Types
+        byte byteNum = 2; // 1 byte
+        short shortNum = 33; // 2 byte
+        int studentNumber = 2; // 4 byte
+        long longNum = 100_100_100_100_100L; // 8 byte
+        System.out.println("Int : " + studentNumber);
+
+        float studentPoint = 1.0f; // 4 byte
+        double studentGrade = 5.5; // 8 bte
+
+        char word = 'A'; // 2 byte, UNICODE
+
+        boolean isSuccess = false;
 
         // Non-Primitive Data Types
         String greeting = "Hello";
-        int [] numbers =  {1, 2, 3, 4, 5};
+        System.out.println("Greeting : " + greeting);
 
-        // Non-Primitive data type are Object
-        int greetLength = greeting.length();
-        System.out.println(greetLength);
-
-        int roleNo = 1;
-        System.out.println("++RoleNo = "+ ++roleNo);
-        roleNo = 1;
-        System.out.println("roleNo++ = "+ roleNo++);
+        // Non-Primitive data type is Object
+        int greetingLength = greeting.length();
+        System.out.println("Greeting : " + greetingLength);
     }
 }

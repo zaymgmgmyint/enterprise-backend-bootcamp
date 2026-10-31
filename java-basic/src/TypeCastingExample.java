@@ -10,6 +10,16 @@
  */
 public class TypeCastingExample {
     static void main() {
+
+        int priority = 2;
+        long bigger = priority; // widening: automatic
+
+        long biggestScore = 5000000000000000000l;
+        int smallestScore = (int) biggestScore; // narrowing: the cast cuts off the value
+//        System.out.println("Smallest Score : " + smallestScore);
+
+
+
         byte b = 127;
         int a = 257;
 
