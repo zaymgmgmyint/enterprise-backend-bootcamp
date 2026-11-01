@@ -18,8 +18,6 @@ public class TypeCastingExample {
         int smallestScore = (int) biggestScore; // narrowing: the cast cuts off the value
 //        System.out.println("Smallest Score : " + smallestScore);
 
-
-
         byte b = 127;
         int a = 257;
 
@@ -30,8 +28,16 @@ public class TypeCastingExample {
         System.out.println("Value of b after casting: " + b);
 
         // double to int cuts off the decimal part. It does not round.
-        double price = 9.99;
-        int priceInt = (int) price;
-        System.out.println("(int) 9.99 = " + priceInt);
+        double discountPrice = 20.50;
+        int salePrice = 30;
+        salePrice = (int) discountPrice;
+        System.out.println("Current Sale Price: " + salePrice);
+
+
+        byte byteNum = 127; // 1 byte
+        int intNum = 10; // 4 byte
+        byteNum = (byte) intNum;
+        System.out.println("Number : " + byteNum);
+
     }
 }
