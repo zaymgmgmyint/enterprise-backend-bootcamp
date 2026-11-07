@@ -2,6 +2,28 @@ public class DecisionExample {
 
     static void main(String[] args) {
 
+        /*
+        if (hour < 9) {
+           All good
+        } else if (hour > 9 && hour < 9:30) {
+            Warning
+        } else if (hour > 10) {
+            Fine
+        } else (hour > 8) {
+            Award
+        }
+
+        if (day = 7) {
+            Holiday
+          } else {
+            Working Day
+          }
+
+          condition ? "" : ""
+          (day = 3) ? "Holiday" : "Working Day"
+
+         */
+
         int priority = 4;
 
         if (priority == 1) {
