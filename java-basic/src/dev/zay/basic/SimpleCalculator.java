@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 import java.util.Scanner;
 
 public class SimpleCalculator {

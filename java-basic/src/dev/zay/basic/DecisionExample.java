@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 public class DecisionExample {
 
     static void main(String[] args) {

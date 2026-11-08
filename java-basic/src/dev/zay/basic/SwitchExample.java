@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 public class SwitchExample {
     static void main() {
         /*

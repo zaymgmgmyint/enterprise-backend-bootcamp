@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 public class OperatorsExample {
 
     public static void main(String[] args) {

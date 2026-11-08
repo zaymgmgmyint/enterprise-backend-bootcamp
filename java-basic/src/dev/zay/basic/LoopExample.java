@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 public class LoopExample {
     static void main(String[] args) {
 

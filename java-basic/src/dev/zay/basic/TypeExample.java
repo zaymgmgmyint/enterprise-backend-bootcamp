@@ -1,6 +1,4 @@
-import com.sun.tools.jconsole.JConsoleContext;
-
-import java.util.Locale;
+package dev.zay.basic;
 
 public class TypeExample {
 

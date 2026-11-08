@@ -1,3 +1,5 @@
+package dev.zay.basic;
+
 /**
  * Shows type casting from a big type to a small type.
  *
