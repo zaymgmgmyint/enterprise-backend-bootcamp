@@ -1,30 +1,47 @@
 package dev.zay.classsandobject;
 
 public class Car {
-    // know something's (data, properties, field)
-    String brand;
-    String color;
-    int speed;
 
-    // does something (method)
-    public void start (){
-        System.out.println("Car is start...");
-    }
+    // Access Modifiers
+    /*
+    The common rule of thumb:
+        - Field are private
+        - Methods & classed need are public
+        - Helper methods are private
+        - Use protected only when you are designing a class to be entended.
+     */
 
-    public void stop () {
-        System.out.println("Car is stop");
-    }
-
-    public void accelerate (int amount) {
-        speed += amount;
-    }
-
-    public void reduce (int amount) {
-        speed -= amount;
-    }
+    public String brand; // anyone can read or change it
+    protected int speed; // same package + child classes
+    String color; // default: same package only
+    private String engineCode; // only code inside Car
 
     public void showInfo() {
-        System.out.println(color + " " + brand + " going " + speed + " km/h");
+        // anyone can call it
     }
 
+    public void accelerate(int amount) {
+        if (amount < 0) {
+            throw new IllegalArgumentException("Amount must be positive");
+        }
+        this.speed += amount;
+    }
+
+    // Helper method
+    private void checkEngine(String engineCode) {
+        // only Car can call it
+        if (engineCode == null || engineCode.isBlank()) {
+            throw new IllegalArgumentException("Engine code is required");
+        }
+    }
+
+    // Getter & Setter
+    public String getEngineCode() {
+        return engineCode;
+    }
+
+    public void setEngineCode(String engineCode) {
+        checkEngine(engineCode);
+        this.engineCode = "(" + engineCode + ")";
+    }
 }

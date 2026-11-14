@@ -19,7 +19,7 @@ javac Hello.java
 java Main
 ```
 
-`javac` makes `Main.class` (bytecode), and `java Main` asks the JVM to run it.
+`javac` makes `CarExampleMain.class` (bytecode), and `java Main` asks the JVM to run it.
 
 ## Expected output
 
