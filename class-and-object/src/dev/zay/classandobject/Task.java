@@ -1,4 +1,4 @@
-package dev.zay.classsandobject;
+package dev.zay.classandobject;
 
 public class Task {
     String title;
