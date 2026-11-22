@@ -11,6 +11,8 @@ public class Main {
         };
 
 
+        Employee e = new Developer("Kate"); // Developer IS-A type of Employee
+
 
         for (Employee employee : staff) {
             employee.work();
